@@ -1,1 +1,1 @@
-Testando operações de arquivos com nodejs
+utilizando o fs.writeFile
