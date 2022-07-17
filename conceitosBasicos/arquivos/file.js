@@ -19,3 +19,12 @@ if (!fs.existsSync('./assets')) {
         console.log('Diretório criado')
     })
 }
+
+if (fs.existsSync('./bazinga.txt')) {
+    fs.unlink('./bazinga.txt', (err) => {
+        if (err) {
+            console.log(err)
+        }
+        console.log('Arquivo apagado')
+    })
+}
