@@ -1,1 +1,0 @@
-const people = ['jose', 'ferreira', 'santos', 'junior']
