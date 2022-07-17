@@ -1,5 +1,7 @@
 const fs = require('fs')
 
+console.log('exemplo assincrono: start')
+
 fs.readFile('./test.txt', (err, data) => {
     if (err) {
         console.log(err)
@@ -28,3 +30,5 @@ if (fs.existsSync('./bazinga.txt')) {
         console.log('Arquivo apagado')
     })
 }
+
+console.log('exemplo assincrono: starting next task')
