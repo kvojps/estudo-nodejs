@@ -1,5 +1,6 @@
 const http = require('http')
 
+//exemplo sincrono
 const server = http.createServer((req, res) => {
     if (req.url === '/') {
         res.end('Welcome to our home page!')
