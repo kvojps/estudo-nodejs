@@ -2,7 +2,7 @@ const http = require('http')
 
 const server = http.createServer((req, res) => {
     if (req.url === '/') {
-        res.end('Welcome to our home page')
+        res.end('Welcome to our home page!')
     }
 
     if (req.url === '/about') {
@@ -11,7 +11,7 @@ const server = http.createServer((req, res) => {
                 console.log(`${i} ${j}`)
             }
         }
-        res.end('Welcome to our about page')
+        res.end('Welcome to our about page!')
     } 
 })
 
